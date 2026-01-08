@@ -1,37 +1,34 @@
 <script setup>
-import HelloWorld from './components/HelloWorld.vue'
-import ProfilePicture from './components/atoms/ProfilePicture.vue';
-import TheWelcome from './components/TheWelcome.vue'
+import './assets/main.css'
 import NavBtn from './components/atoms/NavBtn.vue';
-import PText from './components/atoms/PText.vue';
-import TitleText from './components/atoms/TitleText.vue';
+import Card from './components/molecules/Card.vue';
+import NavAncor from './components/molecules/NavAncor.vue';
 </script>
 
 <template>
-  <header>
-    
-    <NavBtn/>
-    <div class="wrapper">
-      <HelloWorld msg="You did it!" />
-      <TitleText title="Menu" />
-      <PText text="hello la team" />
-    </div>
-  </header>
-
-  <main>
-    <TheWelcome />
-  </main>
+  <div class="test">
+    <header>
+      <NavBtn/>
+      <Card class="card" title="coucou" content="salut moi c'est matthias" />
+    </header>
+    <main>
+      <NavAncor/>
+    </main>
+  </div>
 </template>
 
 <style scoped>
 header {
+  display: flex;
+  flex-direction: column ;
   line-height: 1.5;
+  outline: 2px solid red;
 }
 
-.logo {
-  display: block;
-  margin: 0 auto 2rem;
+main {
+  outline: 2px solid blue;
 }
+
 
 @media (min-width: 1024px) {
   header {

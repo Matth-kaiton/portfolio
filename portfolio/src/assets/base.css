@@ -39,7 +39,8 @@
   --color-border-hover: var(--vt-c-divider-light-1);
 
   --color-heading: var(--vt-c-text-light-1);
-  --color-text: var(--p-c-primary);
+  --color-text: var(--p-c-text-primary);
+  --color-text-secondary: var(--p-c-text-secondary);
 
   --section-gap: 160px;
 }
