@@ -4,23 +4,27 @@ import '@/assets/base.css';
 </script>
 
 <template>
-    <nav class="ancor">
-        <div class="ancorDecoration"></div>
+    <article class="spliter">
+        <div class="spliterDecoration"></div>
         <IconAncorBar/>
-        <div class="ancorDecoration"></div>
-    </nav>
+        <div class="spliterDecoration"></div>
+    </article>
 </template>
 
 <style scoped>
-  .ancor {
+  .spliter {
     display: flex;
     flex: 1;
     width: 100%;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 1rem ;
   }
     
-  .ancorDecoration {
-    background-color: var(--p-c-decoration) ;
-    width: 10px;
+  .spliterDecoration {
+    background-color: var(--p-c-primary) ;
     height: 10px;
+    flex: 1;
+    border-radius: 10px;
   }
 </style>

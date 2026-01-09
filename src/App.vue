@@ -1,15 +1,14 @@
 <script setup>
 import './assets/main.css'
-import NavBtn from './components/atoms/NavBtn.vue';
-import Card from './components/molecules/Card.vue';
+import Intro from './components/molecules/Intro.vue';
 import NavAncor from './components/molecules/NavAncor.vue';
 </script>
 
 <template>
-  <div class="test">
+  <div class="wrapper">
     <header>
-      <NavBtn/>
-      <Card class="card" title="coucou" content="salut moi c'est matthias" />
+      <h1>Portofilio Matthias DUMAS</h1>
+      <Intro  content="salut c'est moi"/>
     </header>
     <main>
       <NavAncor/>
@@ -18,27 +17,21 @@ import NavAncor from './components/molecules/NavAncor.vue';
 </template>
 
 <style scoped>
+
 header {
   display: flex;
+  width: 80%;
   flex-direction: column ;
   line-height: 1.5;
-  outline: 2px solid red;
+  padding: 0px;
+  margin: auto;
 }
 
-main {
-  outline: 2px solid blue;
-}
 
 
 @media (min-width: 1024px) {
   header {
-    display: flex;
-    place-items: center;
-    padding-right: calc(var(--section-gap) / 2);
-  }
-
-  .logo {
-    margin: 0 2rem 0 0;
+    /* padding-right: calc(var(--section-gap) / 2);  a voir si on remet plus tard */
   }
 
   header .wrapper {

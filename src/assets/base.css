@@ -1,6 +1,7 @@
 /* color palette from <https://github.com/vuejs/theme> */
 :root {
   --p-c-background: #0f0e17;
+  --p-c-background-secondary:#1b1b1f;
   --p-c-primary: #7f5af0;
   --p-c-secondary: #2cb67d;
   --p-c-decoration: #f351f3;
