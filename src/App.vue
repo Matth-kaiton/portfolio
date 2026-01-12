@@ -1,17 +1,27 @@
 <script setup>
 import './assets/main.css'
 import Intro from './components/molecules/Intro.vue';
-import NavAncor from './components/molecules/NavAncor.vue';
+import Spliter from './components/molecules/Spliter.vue';
+
+var text = "lorem ipsum"
+
 </script>
 
 <template>
   <div class="wrapper">
     <header>
       <h1>Portofilio Matthias DUMAS</h1>
-      <Intro  content="salut c'est moi"/>
+      <Intro  :content=text />
     </header>
     <main>
-      <NavAncor/>
+      <Spliter/>
+      <h2>mettre carouselle projet ou affichage grille ici</h2>
+      <Spliter/>
+      <h2>Mettre les compétence</h2>
+      <Spliter/>
+      <h2>info suplémentaire</h2>
+      <Spliter/>
+      <h2>Formulaire</h2>
     </main>
   </div>
 </template>

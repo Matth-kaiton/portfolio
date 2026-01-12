@@ -27,8 +27,7 @@ import ProfilePicture from '../atoms/ProfilePicture.vue';
   display: flex;
   flex-direction: column;
   align-items: center;
-  border: 2px solid;
-  border-color: var(--p-c-text-secondary);
+  border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
 }
 
