@@ -1,42 +1,58 @@
 <script setup>
 import './assets/main.css'
+import Card from './components/molecules/Card.vue';
+import Contact from './components/molecules/Contact.vue';
 import Intro from './components/molecules/Intro.vue';
 import Spliter from './components/molecules/Spliter.vue';
+import projects from "@/content.json";
 
 var text = "lorem ipsum"
 
 </script>
 
 <template>
-  <div class="wrapper">
     <header>
-      <h1>Portofilio Matthias DUMAS</h1>
-      <Intro  :content=text />
     </header>
     <main>
+      <h1>Portofilio Matthias DUMAS</h1>
+      <Intro  :content=text />
       <Spliter/>
-      <h2>mettre carouselle projet ou affichage grille ici</h2>
+      <h2>Formation et expérience pro</h2>
       <Spliter/>
       <h2>Mettre les compétence</h2>
       <Spliter/>
-      <h2>info suplémentaire</h2>
+      <h2>projet</h2>
+      <section class="projects">
+        <Card 
+        v-for="project in projects"
+        :title=project.title
+        :content=project.content
+        :webp=project.webp
+        :img=project.img
+        :alter=project.alt  
+        />
+      </section>
       <Spliter/>
-      <h2>Formulaire</h2>
+      <h2>Formulaire de contact</h2>
+      <Contact/>
     </main>
-  </div>
 </template>
 
 <style scoped>
 
 header {
   display: flex;
-  width: 80%;
+  width: 100%;
   flex-direction: column ;
   line-height: 1.5;
   padding: 0px;
   margin: auto;
 }
 
+main{
+  flex:1;
+  width: 100%;
+}
 
 
 @media (min-width: 1024px) {

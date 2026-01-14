@@ -2,10 +2,6 @@
 import ProfilePicture from '../atoms/ProfilePicture.vue';
 
     defineProps({
-    title: {
-        type: String,
-        required: true,
-    },
     content : {
         type: String,
         required: true,
@@ -13,11 +9,9 @@ import ProfilePicture from '../atoms/ProfilePicture.vue';
     })
 </script>
 <template>
-    <section class="intro neon">
-        <div class="test">
-            <p>{{ content }}</p>
-            <ProfilePicture />
-        </div>
+    <section class="intro neon wrap">
+        <p>{{ content }}</p>
+        <ProfilePicture />
     </section>
 </template>
 
@@ -26,12 +20,12 @@ import ProfilePicture from '../atoms/ProfilePicture.vue';
   background-color: var(--p-c-background-secondary);
   display: flex;
   flex-direction: column;
-  align-items: center;
   border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
+  width: 60%;
 }
 
-.test{
+.wrap{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -43,7 +37,7 @@ import ProfilePicture from '../atoms/ProfilePicture.vue';
 
 @media (min-width: 1024px) {
 
-  .test{
+  .wrap{
     flex-direction: row-reverse;
   }
   
