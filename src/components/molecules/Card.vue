@@ -27,7 +27,7 @@
   align-items: center;
   border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
-  width: 30%;
+  width: 60%;
   transition: transform 0.5s ease;
 }
 
@@ -50,6 +50,10 @@
 
   .test{
     flex-direction: row-reverse;
+  }
+  
+  .card{
+    width: 30%;
   }
   
 

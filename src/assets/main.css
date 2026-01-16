@@ -37,6 +37,13 @@ main{
   align-items: center;
 }
 
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+
 /* .neon::after {
   content: "";
   bottom: -5px;
@@ -67,15 +74,5 @@ main{
   }
 }
 
-@media (min-width: 1024px) {
-  
-  .projects{
-    display:flex;
-    flex-wrap:wrap;
-    gap: 1rem;
-    justify-content: center;
-  }
-
-}
 
 

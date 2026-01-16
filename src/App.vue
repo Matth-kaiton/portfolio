@@ -4,7 +4,7 @@ import Card from './components/molecules/Card.vue';
 import Contact from './components/molecules/Contact.vue';
 import Intro from './components/molecules/Intro.vue';
 import Spliter from './components/molecules/Spliter.vue';
-import projects from "@/content.json";
+import projects from "@/data/projects.json";
 
 var text = "lorem ipsum"
 
@@ -17,9 +17,8 @@ var text = "lorem ipsum"
       <h1>Portofilio Matthias DUMAS</h1>
       <Intro  :content=text />
       <Spliter/>
-      <h2>Formation et expérience pro</h2>
-      <Spliter/>
-      <h2>Mettre les compétence</h2>
+      <h2>Formation</h2>
+      <h2>Compétence</h2>
       <Spliter/>
       <h2>projet</h2>
       <section class="projects">

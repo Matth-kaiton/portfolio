@@ -1,0 +1,40 @@
+{
+    "formation" : [
+        {
+            "name" : "Bachelor informatique",
+            "location" : "Ynov Campus à Lyon",
+            "level" : "Bac +3"
+        },
+        {
+            "name" : "Bac pro systèmes numérique",
+            "location" : "SEPR à Lyon",
+            "level" : "Bac"
+        }
+    ],
+    "competence" : [
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        },
+        {
+            "icon" : "/"
+        }
+    ]
+}
