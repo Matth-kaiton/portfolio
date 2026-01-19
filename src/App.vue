@@ -5,9 +5,6 @@ import Contact from './components/molecules/Contact.vue';
 import Intro from './components/molecules/Intro.vue';
 import Spliter from './components/molecules/Spliter.vue';
 import projects from "@/data/projects.json";
-
-var text = "lorem ipsum"
-
 </script>
 
 <template>
@@ -15,7 +12,7 @@ var text = "lorem ipsum"
     </header>
     <main>
       <h1>Portofilio Matthias DUMAS</h1>
-      <Intro  :content=text />
+      <Intro/>
       <Spliter/>
       <h2>Formation</h2>
       <h2>Compétence</h2>

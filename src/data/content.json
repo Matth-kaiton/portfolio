@@ -1,14 +1,23 @@
 {
-    "formation" : [
+    "aboutMe": [
+        "Après plusieurs années en tant que pâtissier, j'ai décidé d'opérer une reconversion professionnelle vers le développement informatique.",
+        "Passionné d'informatique depuis longtemps, j'ai découvert dans le code un univers stimulant où la logique rencontre la créativité.",
+        "Actuellement en Bachelor informatique, je me forme au développement web et à la conception d'applications modernes.",
+        "J'aime créer des projets concrets, optimiser mes solutions et apprendre continuellement de nouvelles technologies.",
+        "Motivé et impliqué, je construis progressivement mon avenir professionnel dans le développement. " 
+    ],
+    "training" : [
         {
             "name" : "Bachelor informatique",
             "location" : "Ynov Campus à Lyon",
-            "level" : "Bac +3"
+            "level" : "Bac +3",
+            "years" : "2024 - 2027"
         },
         {
             "name" : "Bac pro systèmes numérique",
             "location" : "SEPR à Lyon",
-            "level" : "Bac"
+            "level" : "Bac",
+            "years" : "2021 - 2024"
         }
     ],
     "competence" : [
@@ -37,4 +46,5 @@
             "icon" : "/"
         }
     ]
+
 }

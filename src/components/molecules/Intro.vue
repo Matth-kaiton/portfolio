@@ -1,16 +1,13 @@
 <script setup>
 import ProfilePicture from '../atoms/ProfilePicture.vue';
-
-    defineProps({
-    content : {
-        type: String,
-        required: true,
-    }
-    })
+import content from "@/data/content.json";
 </script>
+
 <template>
     <section class="intro neon wrap">
-        <p>{{ content }}</p>
+        <div>
+            <p  v-for="(text , i) in content.aboutMe" :key="i">{{ text }}</p>
+        </div>
         <ProfilePicture />
     </section>
 </template>
@@ -27,11 +24,13 @@ import ProfilePicture from '../atoms/ProfilePicture.vue';
 
 .wrap{
     display: flex;
-    flex-direction: column;
+    flex-direction: column-reverse;
     justify-content: center;
     gap: 1rem;
     padding: 1rem;
     align-items: center;
+    text-align: start;
+    color: var(--p-c-text-secondary);
 }
 
 
