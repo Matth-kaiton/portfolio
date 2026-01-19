@@ -1,4 +1,4 @@
-<script>
+<script setup>
 
     defineProps({
         title : {String},
@@ -10,7 +10,7 @@
 
 <template>
     <article>
-        <h2> {{ title }} </h2>
+        <h3> {{ title }} </h3>
         <p> {{ location }} </p>
         <div>
             <p>{{ level }}</p>

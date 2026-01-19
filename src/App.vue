@@ -5,6 +5,8 @@ import Contact from './components/molecules/Contact.vue';
 import Intro from './components/molecules/Intro.vue';
 import Spliter from './components/molecules/Spliter.vue';
 import projects from "@/data/projects.json";
+import content from "@/data/content.json";
+import Training from './components/molecules/Training.vue';
 </script>
 
 <template>
@@ -15,6 +17,15 @@ import projects from "@/data/projects.json";
       <Intro/>
       <Spliter/>
       <h2>Formation</h2>
+      <section class="wrapTraining">
+      <Training
+        v-for="train in content.training"
+        :title=train.name
+        :location=train.location
+        :level=train.level
+        :years=train.years
+        />
+      </section>
       <h2>Compétence</h2>
       <Spliter/>
       <h2>projet</h2>
@@ -48,6 +59,12 @@ header {
 main{
   flex:1;
   width: 100%;
+}
+
+.wrapTraining{
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
 }
 
 
