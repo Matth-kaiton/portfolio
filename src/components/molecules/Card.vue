@@ -12,7 +12,7 @@
     <article class="card neon">
         <img :src="webp"/>
         <div class="wrap">
-            <h2> {{ title }} </h2>
+            <h3> {{ title }} </h3>
             <p> {{ content }} </p>
         </div>
     </article>
