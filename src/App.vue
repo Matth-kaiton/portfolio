@@ -1,12 +1,13 @@
 <script setup>
-import './assets/main.css'
-import Card from './components/molecules/Card.vue';
-import Contact from './components/molecules/Contact.vue';
-import Intro from './components/molecules/Intro.vue';
-import Spliter from './components/molecules/Spliter.vue';
-import projects from "@/data/projects.json";
-import content from "@/data/content.json";
-import Training from './components/molecules/Training.vue';
+  import './assets/main.css'
+  import Card from './components/molecules/Card.vue';
+  import Contact from './components/molecules/Contact.vue';
+  import Intro from './components/molecules/Intro.vue';
+  import Spliter from './components/molecules/Spliter.vue';
+  import projects from "@/data/projects.json";
+  import content from "@/data/content.json";
+  import Training from './components/molecules/Training.vue';
+  import Logo from './components/atoms/Logo.vue';
 </script>
 
 <template>
@@ -27,6 +28,13 @@ import Training from './components/molecules/Training.vue';
         />
       </section>
       <h2>Compétence</h2>
+      <section class="competence">
+        <Logo
+        v-for="logo in content.competence" 
+        :source="logo.icon"
+        :text="logo.text"
+        />
+      </section>
       <Spliter/>
       <h2>projet</h2>
       <section class="projects">

@@ -43,6 +43,13 @@ main{
     gap: 1rem;
     justify-content: center;
   }
+  
+.competence{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  width: 300px;
+}
 
 /* .neon::after {
   content: "";
@@ -72,6 +79,7 @@ main{
   a:hover {
     background-color: var(--p-c-decoration);
   }
+
 }
 
 

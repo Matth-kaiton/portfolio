@@ -22,28 +22,36 @@
     ],
     "competence" : [
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/CSS.png",
+            "text" : "css"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/golang.png",
+            "text" : "golang"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/html.png",
+            "text" : "html"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/js.webp",
+            "text" : "javaScript"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/php.png",
+            "text" : "php"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/python.png",
+            "text" : "python"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/sql.png",
+            "text" : "sql"
         },
         {
-            "icon" : "/"
+            "icon" : "src/assets/logo/vue.png",
+            "text" : "vue"
         }
     ]
 
