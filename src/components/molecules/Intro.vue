@@ -4,7 +4,7 @@ import content from "@/data/content.json";
 </script>
 
 <template>
-    <section class="intro neon wrap">
+    <section class="intro wrap">
         <div>
             <p  v-for="(text , i) in content.aboutMe" :key="i">{{ text }}</p>
         </div>
@@ -20,6 +20,7 @@ import content from "@/data/content.json";
   border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
   width: 60%;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .wrap{
