@@ -29,6 +29,7 @@
   border-radius: 15px;
   width: 60%;
   transition: transform 0.5s ease;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
 .card:hover {

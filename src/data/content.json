@@ -22,35 +22,35 @@
     ],
     "competence" : [
         {
-            "icon" : "src/assets/logo/CSS.png",
+            "icon" : "src/assets/logo/css.avif",
             "text" : "css"
         },
         {
-            "icon" : "src/assets/logo/golang.png",
+            "icon" : "src/assets/logo/golang.avif",
             "text" : "golang"
         },
         {
-            "icon" : "src/assets/logo/html.png",
+            "icon" : "src/assets/logo/html.avif",
             "text" : "html"
         },
         {
-            "icon" : "src/assets/logo/js.webp",
+            "icon" : "src/assets/logo/js.avif",
             "text" : "javaScript"
         },
         {
-            "icon" : "src/assets/logo/php.png",
+            "icon" : "src/assets/logo/php.avif",
             "text" : "php"
         },
         {
-            "icon" : "src/assets/logo/python.png",
+            "icon" : "src/assets/logo/python.avif",
             "text" : "python"
         },
         {
-            "icon" : "src/assets/logo/sql.png",
+            "icon" : "src/assets/logo/sql.avif",
             "text" : "sql"
         },
         {
-            "icon" : "src/assets/logo/vue.png",
+            "icon" : "src/assets/logo/vue.avif",
             "text" : "vue"
         }
     ]
