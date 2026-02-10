@@ -20,8 +20,9 @@ defineProps({
 <style scoped>
 
 .comp{
-  height: auto;
-  width: auto;
+  width: 60px;
+  height: 60px;
+  object-fit: contain;
   transition: transform 0.5s ease;
 }
 

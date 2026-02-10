@@ -19,13 +19,13 @@
       <Spliter/>
       <h2>Formation</h2>
       <section class="wrapTraining">
-      <Training
-        v-for="train in content.training"
-        :title=train.name
-        :location=train.location
-        :level=train.level
-        :years=train.years
-        />
+        <Training
+          v-for="train in content.training"
+          :title=train.name
+          :location=train.location
+          :level=train.level
+          :years=train.years
+          />
       </section>
       <h2>Compétence</h2>
       <section class="competence">

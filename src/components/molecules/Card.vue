@@ -10,7 +10,7 @@
 
 <template>
     <article class="card neon">
-        <img :src="webp"/>
+        <img class="card_img" :src="webp"/>
         <div class="wrap">
             <h3> {{ title }} </h3>
             <p> {{ content }} </p>
@@ -37,6 +37,14 @@
     transform: scale(1.05);
 }
 
+.card_img {
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+}
+
 .wrap{
     display: flex;
     flex-direction: column;
@@ -45,6 +53,8 @@
     padding: 1rem;
     align-items: center;
 }
+
+
 
 
 @media (min-width: 1024px) {
