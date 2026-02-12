@@ -44,12 +44,12 @@
         :content=project.content
         :webp=project.webp
         :img=project.img
-        :alter=project.alt  
+        :alt=project.alt
+        :techno=project.techno
+        :date=project.date
+        :gitUrl=project.gitUrl
         />
       </section>
-      <Spliter/>
-      <h2>Formulaire de contact</h2>
-      <Contact/>
     </main>
 </template>
 
