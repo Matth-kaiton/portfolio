@@ -36,7 +36,7 @@
         />
       </section>
       <Spliter/>
-      <h2>projet</h2>
+      <h2>Projet</h2>
       <section class="projects">
         <Card 
         v-for="project in projects"
@@ -67,24 +67,28 @@ header {
 main{
   flex:1;
   width: 100%;
+  padding: 30px 0px;
+  gap: 1rem;
 }
 
 .wrapTraining{
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   gap: 1rem;
 }
 
 
-@media (min-width: 1024px) {
-  header {
-    /* padding-right: calc(var(--section-gap) / 2);  a voir si on remet plus tard */
-  }
 
+@media (min-width: 1024px) {
   header .wrapper {
     display: flex;
     place-items: flex-start;
     flex-wrap: wrap;
+  }
+
+  .wrapTraining{
+    flex-direction: row;
+    gap: 1rem;
   }
 }
 </style>

@@ -38,19 +38,5 @@
         "techno": ["Golang","html","css"],
         "date": "Décembre 2024",
         "gitUrl": "https://github.com/Matth-kaiton/Hangman_Web_Matthias.DUMAS.git"
-    },
-    {
-        "title" : "Lorem ipsum",
-        "content" : "Lazes aze azdsdgf  aze gdfgffepazrozjf ip",
-        "webp" : "/project/logo_test_128.webp",
-        "img" : "/project/logo_test.jpg",
-        "alt" : ""
-    },
-    {
-        "title" : "Lorem ipsum",
-        "content" : "Lazes aze azdsdgf  aze gdfgffepazrozjf ip",
-        "webp" : "/project/logo_test_128.webp",
-        "img" : "/project/logo_test.jpg",
-        "alt" : ""
     }
 ]

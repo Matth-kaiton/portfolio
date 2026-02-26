@@ -37,7 +37,7 @@
   align-items: center;
   border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
-  width: 60%;
+  width: 95%;
   transition: transform 0.5s ease;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
   max-width: 300px;
