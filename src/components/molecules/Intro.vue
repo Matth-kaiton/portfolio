@@ -20,6 +20,7 @@ import content from "@/data/content.json";
   border: 2px solid rgb(56, 54, 54);
   border-radius: 15px;
   width: 90%;
+  max-width: 800px;
   box-shadow: 0 10px 30px rgba(0,0,0,0.3);
 }
 
