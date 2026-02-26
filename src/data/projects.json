@@ -1,0 +1,42 @@
+[
+    {
+        "title" : "Dorov",
+        "content" : "Jeu d'horreur fait en groupe, le joueur dois s'échapper d'une ile en résolvant des énigmes et en évitant les dangers qui la peuplent.",
+        "webp" : "/project/dorov.avif",
+        "img" : "/project/logo_test.jpg",
+        "alt" : "",
+        "techno" : ["Unreal Engine", "C#"],
+        "date" : "2024 - 2025",
+        "gitUrl": "https://github.com/DamienRouzeau/Dorov.git"
+    },
+    {
+        "title" : "Forum",
+        "content" : "Forum de discussion en ligne, permettant aux utilisateurs de créer des sujets de discussion et d'y répondre sur le thème de l'escalade.",
+        "webp" : "/project/forum.avif",
+        "img" : "/project/logo_test.jpg",
+        "alt" : "",
+        "techno": ["Golang","html","tailwind css"],
+        "date" : "Mai 2025",
+        "gitUrl": "https://github.com/corentin-cpp/Forum.git"
+    },
+    {
+        "title" : "GroupiTracker",
+        "content" : "Jeu ou l'on dois trouver un bombe et la dersarmer vous recolter des indice à chaque mini jeu.",
+        "webp" : "/project/groupiTracker.avif",
+        "img" : "/project/logo_test.jpg",
+        "alt" : "",
+        "techno": ["javascript", "html", "css"],
+        "date": "Fevrier 2025",
+        "gitUrl": "https://github.com/Lyon-Ynov-Campus/ymmersion-java-ahmed-matthias.git"
+    },
+    {
+        "title" : "Jeu du pendu",
+        "content" : "Un jeu du pendu en web premier projet réalisé de la formation de développeur.",
+        "webp" : "/project/hangmanWeb.avif",
+        "img" : "/project/logo_test.jpg",
+        "alt" : "",
+        "techno": ["Golang","html","css"],
+        "date": "Décembre 2024",
+        "gitUrl": "https://github.com/Matth-kaiton/Hangman_Web_Matthias.DUMAS.git"
+    }
+]

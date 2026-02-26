@@ -6,17 +6,17 @@ body {
   height: 100%;
   margin: 0;
   background: var(--p-c-background);
-  
 }
 
 #app {
-  width: 100%;
-  height: 100%;
-}
-
-.wrapper {
   display: flex;
+  flex: 1;
+  width: 80%;
+  min-height: 100vh;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  margin: auto;
 }
 
 a,
@@ -31,7 +31,28 @@ a,
   border-radius: 100px;
 }
 
-.neon::after {
+main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.projects{
+    display:flex;
+    flex-wrap:wrap;
+    gap: 1rem;
+    justify-content: center;
+  }
+  
+.competence{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1rem;
+  width: 350px;
+}
+
+/* .neon::after {
   content: "";
   bottom: -5px;
   width: 100%;
@@ -52,22 +73,15 @@ a,
     opacity: 1;
     filter : blur(30px)
   }
-}
-
+} */
 
 
 @media (hover: hover) {
   a:hover {
     background-color: var(--p-c-decoration);
   }
-}
-
-@media (min-width: 1024px) {
-  body {
-    display: flex;
-    place-items: center;
-  }
 
 }
+
 
 
