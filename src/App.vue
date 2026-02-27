@@ -14,7 +14,7 @@
     <header>
     </header>
     <main>
-      <h1>Portofilio Matthias DUMAS</h1>
+      <h1>Portfolio Matthias DUMAS</h1>
       <Intro/>
       <Spliter/>
       <h2>Formation</h2>
@@ -27,7 +27,7 @@
           :years=train.years
           />
       </section>
-      <h2>Compétence</h2>
+      <h2>Compétences</h2>
       <section class="competence">
         <Logo
         v-for="logo in content.competence" 
@@ -36,7 +36,7 @@
         />
       </section>
       <Spliter/>
-      <h2>Projet</h2>
+      <h2>Projets</h2>
       <section class="projects">
         <Card 
         v-for="project in projects"

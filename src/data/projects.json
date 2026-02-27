@@ -1,7 +1,7 @@
 [
     {
         "title" : "Dorov",
-        "content" : "Jeu d'horreur fait en groupe, le joueur dois s'échapper d'une ile en résolvant des énigmes et en évitant les dangers qui la peuplent.",
+        "content" : "Jeu d'horreur fait en groupe, le joueur doit s'échapper d'une île en résolvant des énigmes et en évitant les dangers qui la peuplent.",
         "webp" : "/project/dorov.avif",
         "img" : "/project/logo_test.jpg",
         "alt" : "",
@@ -21,7 +21,7 @@
     },
     {
         "title" : "GroupiTracker",
-        "content" : "Jeu ou l'on dois trouver un bombe et la dersarmer vous recolter des indice à chaque mini jeu.",
+        "content" : "Jeu où l'on doit trouver une bombe et la désarmer. Vous récoltez des indices à chaque mini jeu.",
         "webp" : "/project/groupiTracker.avif",
         "img" : "/project/logo_test.jpg",
         "alt" : "",
